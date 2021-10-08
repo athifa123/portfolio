@@ -1,0 +1,44 @@
+@font-face {
+    font-family:unicorn ;
+    src: url('fonts/unicons.eot?42479262');
+}
+   
+
+
+.uil uil-user{
+    @font-face {
+        font-family:unicorn ;
+        src: url('fonts/unicons.eot?42479262');
+        display:flex;
+        uil-align-justify:before{content:'\e80d';
+        }
+    }
+}
+
+
+header > .container > .d-flex > .tab:hover{
+    color:yellow; 
+    transition: 2s; 
+      
+}
+
+header > .container > .d-flex > .tab{
+    padding: 15px 20px ;
+
+}
+
+.image-fluid{
+     max-width: 50%;
+    max-height:50%;
+}
+.rounded{
+    max-width: 70%;
+    uil-arrow-circle-up:before{content:'\e82b'}.
+}
+
+.circleround{
+    border-radius: 50%;
+padding:30px;
+    background-color:rgb(85, 75, 75) ;
+    color: white;
+}
