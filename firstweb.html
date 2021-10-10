@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link  rel="stylesheet" href="firstweb.css" > 
     <link  rel="stylesheet" href="plugins.css" > 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <title>First web </title>
 </head>
 <body>
     <header>
         <div class="container d-flex align-items-center">
-            <div class="uil uil-user">
+            <div class="uil uil-user" id="marvel">
                 <b>Marvel</b> 
             </div>
             <div class="mx-auto d-flex">
@@ -23,78 +24,63 @@
             </div>
         </div>
     </header>
+    <div class="screen"> </div>
 
     <section id="About">
-        <div class="container">
-
-        <div>
-        <p>
-            Welcome to my portfolio website! 
-        </p>
-        </div>
-        <div>
-        <h1>
-            <b>Hey folks, I'm Marvel Sann</b>
-        </h1>
-        </div>
-        <div>
-        <p> Building a successful product is a challenge. I am highly energetic in user <br> experience design, interfaces and web development.</p>
-        <button type="button" class="btn btn-outline-warning"> <b> Download Resume </b></button>
-        <button type="button" class="btn btn-outline-secondary"> <b> Get a quote </b></button>
-        </div>
-        <div>
-            <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page270/marvel/assets/images/undraw/undraw_software_engineer_lvl5.svg" class="image-fluid">
-
-        </div>
-
-
+        <div class="container d-flex">
+            <div class="col-lg-7 col-md-12 col-sm-12">
+                <p>
+                   Welcome to my portfolio website! 
+                </p>
+                <h1>
+                    <b>Hey folks, I'm Marvel Sann</b>
+                </h1>
+                <p> Building a successful product is a challenge. I am highly energetic in user experience design, interfaces and web development.</p>
+                <button type="button" class="btn btn-outline-warning"> <b> Download Resume </b></button>
+                <button type="button" class="btn btn-outline-secondary"> <b> Get a quote </b></button>
+            </div>
+            <div class=" col-lg-5 col-md-12 col-sm-12">
+                <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page270/marvel/assets/images/undraw/undraw_software_engineer_lvl5.svg" class="image-fluid">
+             </div>
+        </div>>
     </section>
     <section id="part2">
-            <div class="text-center">
-                <h1> Things I have designed for digital media agencies</h1>
-                <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page270/marvel/assets/images/project/project-image01.png"  class="rounded" alt="...">
-                
-                
-            </div>
-        
-
- 
+        <div class="text-center">
+            <h1> Things I have designed for digital media agencies</h1>
+            <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page270/marvel/assets/images/project/project-image01.png"  class="rounded" alt="...">
+        </div>
     </section>
     <section id="part3">
         <div class="container">
-        <h1> Experiences</h1>
-
-    </div>
+            <h1> Experiences</h1>
+        </div>
     </section>
-
     <section id="resource">
         <div class="container">
-        <span class="circleround"> 2045</span> <h2><span> Project Manager<small> Best studio </small></span></h2>
-        <p>Proin ornare non purus ut rutrum. Nulla facilisi. Aliquam laoreet libero ac pharetra feugiat. Cras ac fermentum nunc, a faucibus nunc.</p>
-        <span class="circleround"> 2045</span><span><h2> UX Designer<small> Digital Ace</small></h2></span>
-        <p> Fusce rutrum augue id orci rhoncus molestie. Nunc auctor dignissim lacus vel iaculis.</p>
-        <span class="circleround"> 2016</span><span><h2> UI Freelancer</h2></span>
-        <p> Sed fringilla vitae enim sit amet cursus. Sed cursus dictum tortor quis pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-        <span class="circleround"> 2014</span><span><h2>Junior Designer<small> Crafted Co.</small></h2></span>
-        <p> Cras scelerisque scelerisque condimentum. Nullam at volutpat mi. Nunc auctor ipsum eget magna consequat viverra.</p>
-        <br>
-        <br>
-        <br>
-        <h1> Educations</h1>
-        <span class="circleround"> 2017</span> <h2><span> Mobile web <small> Master Design </small></span></h2>
-        <p>Please tell your friends about Tooplate website. That would be very helpful. We need your support.</p>
-        <span class="circleround"> 2015</span><span><h2> User interface <small> Creative Agency </small></h2></span>
-        <p> Tooplate is a great website to download HTML templates without any login or email.</p>
-        <span class="circleround"> 2013</span><span><h2> Artwork Design <small>New art school </small> </h2></span>
-        <p> You can freely use Tooplate's templates for your business or personal sites. Suspendisse sollicitudin libero et tincidunt scelerisque.</p>
-
-    </div>
+            <div>
+            <span class="circleround"> 2045</span> <h2><span> Project Manager <small> Best studio</small> </span></h2>
+            <p>Proin ornare non purus ut rutrum. Nulla facilisi. Aliquam laoreet libero ac pharetra feugiat. Cras ac fermentum nunc, a faucibus nunc.</p>
+            <span class="circleround"> 2045</span><span><h2> UX Designer<small> Digital Ace</small></h2></span>
+            <p> Fusce rutrum augue id orci rhoncus molestie. Nunc auctor dignissim lacus vel iaculis.</p>
+            <span class="circleround"> 2016</span><span><h2> UI Freelancer</h2></span>
+            <p> Sed fringilla vitae enim sit amet cursus. Sed cursus dictum tortor quis pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+            <span class="circleround"> 2014</span><span><h2>Junior Designer<small> Crafted Co.</small></h2></span>
+            <p> Cras scelerisque scelerisque condimentum. Nullam at volutpat mi. Nunc auctor ipsum eget magna consequat viverra.</p>
+           </div><br>
+            <br>
+            <br>
+            <div>
+            <h1> Educations</h1>
+            <span class="circleround"> 2017</span> <h2><span> Mobile web <small> Master Design </small></span></h2>
+            <p>Please tell your friends about Tooplate website. That would be very helpful. We need your support.</p>
+            <span class="circleround"> 2015</span><span><h2> User interface <small> Creative Agency </small></h2></span>
+            <p> Tooplate is a great website to download HTML templates without any login or email.</p>
+            <span class="circleround"> 2013</span><span><h2> Artwork Design <small>New art school </small> </h2></span>
+            <p> You can freely use Tooplate's templates for your business or personal sites. Suspendisse sollicitudin libero et tincidunt scelerisque.</p>
+            </div>
+        </div>
     </section>
-
     <iframe aria-hidden="true" frameborder="0" tabindex="-1" style="z-index: -1; position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; border: none;"></iframe>
-    
-
-    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
