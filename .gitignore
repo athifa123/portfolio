@@ -105,3 +105,4 @@ dist
 
 .test
 .history
+.DS_Store
